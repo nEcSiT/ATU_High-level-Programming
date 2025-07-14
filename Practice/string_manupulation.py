@@ -1,0 +1,7 @@
+#print("Hello" + " "+ "Nicholas")
+#print("Hello" + "Nicholas")
+#print("Hello world\nHello world")
+print("String manipulation exercise")
+print("Sring concatination is done with a '+' sign")
+print('eg. print("Hello" + "Jenny")')
+print("New line can be created with backslash and an n")
