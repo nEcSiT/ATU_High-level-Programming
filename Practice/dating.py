@@ -1,0 +1,16 @@
+fisrt_person = input("Hello there!, What is your name? ")
+print()
+print(f"Wow!, What a beautiful name you have, {fisrt_person}.")
+print()
+location = input("If I may ask...Where do you stay? ")
+print(f"Ouch!, {location} is pretty far from me :(")
+print()
+
+age = int(input("Well I would love to know how old you are if you don't mind...lease don't turn me down :(...  "))
+print()
+print(f"I see!, you'r just the pefect match for me, just that {location} is far, but anyways.\nYou are {age} and I am {age + 3}, You are called {fisrt_person} and I am call call Kwame")
+print()
+
+number = input("Can I get your number?... ")
+print()
+print(f"Let me repeat the number...{number}. Thank you {fisrt_person}, nice meeting you.\nSafe journey to to {location}")
