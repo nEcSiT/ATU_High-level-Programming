@@ -10,7 +10,16 @@ class MyData:
         self.hobbies = hobbies
         self.dream_job = dream_job
 
+    def greeting(self):
+        """Display a personalized greeting with key information"""
+        return (
+            f"Hello, {self.name}!\n"
+            f"You are {self.age} years old, love the color {self.color}, and enjoy eating {self.food}.\n"
+            f"Life must be awesome in {self.city}!"
+        )
+
     def summary(self):
+        """Display complete detailed summary"""
         return (
             f"Name: {self.name}\n"
             f"Age: {self.age}\n"
@@ -22,3 +31,13 @@ class MyData:
             f"Hobbies: {self.hobbies}\n"
             f"Dream Job: {self.dream_job}"
         )
+
+    def display_all(self):
+        """Display greeting first, then detailed summary"""
+        print("\n" + "🎉" * 20)
+        print(self.greeting())
+        print("🎉" * 20)
+        print("\n📋 Here are your complete details:")
+        print("-" * 40)
+        print(self.summary())
+        print("-" * 40)
