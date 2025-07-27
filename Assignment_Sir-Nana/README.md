@@ -1,5 +1,7 @@
 # Assignment_Sir-Nana
 
+**Author:** Nicholas Dornyo
+**ID**: 01245668B
 Welcome to the **ATU High-level Programming Assignment** folder. This repository contains coursework and assignments for the High-level Programming module under the guidance of Sir Nana.
 
 ## 📋 Project Overview
